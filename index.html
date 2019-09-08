@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <meta name="author" content="barsha">
+
+      <title>Barsha Maharjan</title>
+
+      <link rel="icon" href="images/favicon.png" type="image" sizes="32x32">
+
+      <!-- stylesheet -->
+      <link rel="stylesheet" href="style/css/main.css">
+
+      <!-- bootstrap cdns -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+      <!-- google fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+
+      <!-- icons -->
+      <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
+
+      <!-- for on scroll animations -->
+      <link rel="stylesheet" href="style/css/animate.css">
+      <script src="js/wow.min.js"></script>
+
+</head>
+<body>
+
+
+
+           <div class="wrapper">
+
+                <!-- navbar start -->
+                <nav class="navbar navbar-expand-lg">
+                        <span id="brand">
+                              <a href="index.html"><img src="images/logo.png" class="logo"></a>
+                        </span>
+                        <ul id="menu" class="main-menu">
+                              <li><a href="#work">About</a></li>
+                              <li><a href="pages/projects/projects.html">Services</a></li>
+                              <li><a href="pages/projects/projects.html">Delivery</a></li>
+                        </ul>
+
+                        <div id="toggle">
+                              <div class="span">menu</div>
+                        </div>
+                </nav>
+
+                <div id="resize">
+                      <div class="close-btn">close</div>
+
+                      <ul id="menu">
+                            <li><a href="#work">About</a></li>
+                            <li><a href="pages/projects/projects.html">Services</a></li>
+                            <li><a href="pages/about/about.html">Delivery</a></li>
+                      </ul>
+                </div>
+                <!-- navbar end -->
+
+
+                <!-- hero section -->
+                
+                <div class="hero">
+
+                  <div class="container">
+                      <div class="row">
+                        <div class=" col-md-5">
+                          <p>In Place is a research-based consultancy specializing in understanding cities, urban issues and spaces. </p>
+                        </div>
+                        <div class="col-md-2"></div>
+                        <div class=" col-md-5">
+                          <p>It is our mission to work with businesses to guide and foster positive interaction with and participation in urban placemaking.</p>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+
+                <!-- hero section end -->
+
+
+                <!-- content section start -->
+                    
+
+                  <div class="content-section">
+                    <div class="container">
+
+                      <div class="content-header">
+                        <p>Work with us...</p>
+                      </div>
+
+                      <div class="content-details">
+    
+                        <!-- content detail one -->
+                        <div class="row content-detail-section">
+                          <div class="col-md-6 content-image">
+                            <img src="images/inplace-img1.jpeg">
+                          </div>
+
+                          <div class="col-md-6 content-description">
+                            <p>Connect with people living and working in cities. We bring together panels of innovators, artists, designers, you name it, so you can hear first-hand about their lives, what matters to them and what drives them, and build new ideas. </p>
+                          </div>
+                        </div>
+    
+                        <!-- content detail two -->
+                        <div class="row content-detail-section">
+
+                          <div class="col-md-6 content-description">
+                            <p>We are experts in cities around the world and when it's time for your brand to move to a new place work with us to ensure your brand identity finds affinity with the local culture whether it's Denver or Shanghai.  </p>
+                          </div>
+                          <div class="col-md-6 content-image">
+                            <img src="images/inplace-img1.jpeg">
+                          </div>
+
+
+                        </div>
+    
+                        <!-- content detail three -->
+                        <div class="row content-detail-section">
+                          <div class="col-md-6 content-image">
+                            <img src="images/inplace-img1.jpeg">
+                          </div>
+
+                          <div class="col-md-6 content-description">
+                            <p>From concepts to shopfronts, we look at the big picture to create actionable and impactful strategies that are grounded in where you want to be and who you want to reach.</p>
+                          </div>
+                        </div>
+
+
+                       </div>
+
+
+                    </div> <!-- container ends -->
+                  </div>  <!-- content section ends -->
+
+
+
+
+            </div> <!-- wrapper ends -->
+
+            
+
+
+            <!-- footer starts -->
+            <div class="footer">
+                  <div class="container">
+                              <div class="row">
+                                    <div class="col-lg-6" id="personal">
+                                          <a href="index.html"><img src="images/logo.png" class="logo"></a>
+                                    </div>
+
+                                    <div class="col-lg-6" id="address">
+                                          <p class="wow fadeInUp" data-wow-delay="0s">stef@inplace.consulting</p>
+                                          <p class="wow fadeInUp" data-wow-delay="0.2s">Brooklyn, New York</p>
+                                          <br><br>
+                                    </div>
+                              </div>
+                  </div>
+            </div>
+            <!-- footer ends -->
+      </div>
+
+
+
+
+      <!-- greensock cdn -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+
+      <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+      <script type="text/javascript">
+
+       // navigation starts here
+
+      $("#toggle").click(function() {
+            $(this).toggleClass('on');
+            $("#resize").toggleClass("active");
+      });
+
+      $("#resize ul li a").click(function() {
+            $(this).toggleClass('on');
+            $("#resize").toggleClass("active");
+      });
+
+      $(".close-btn").click(function() {
+            $(this).toggleClass('on');
+            $("#resize").toggleClass("active");
+      });
+
+      // navigation ends here
+
+      
+
+     
+
+      </script>
+</body>
+</html>
+
